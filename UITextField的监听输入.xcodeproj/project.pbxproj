@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A1333961CED959C009E9EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1333951CED959C009E9EC2 /* main.m */; };
+		5A1333991CED959C009E9EC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1333981CED959C009E9EC2 /* AppDelegate.m */; };
+		5A13339C1CED959C009E9EC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A13339B1CED959C009E9EC2 /* ViewController.m */; };
+		5A13339F1CED959C009E9EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A13339D1CED959C009E9EC2 /* Main.storyboard */; };
+		5A1333A11CED959C009E9EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1333A01CED959C009E9EC2 /* Assets.xcassets */; };
+		5A1333A41CED959C009E9EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1333A21CED959C009E9EC2 /* LaunchScreen.storyboard */; };
+		5A1333AF1CED959C009E9EC2 /* UITextField_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1333AE1CED959C009E9EC2 /* UITextField_____Tests.m */; };
+		5A1333BA1CED959D009E9EC2 /* UITextField_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1333B91CED959D009E9EC2 /* UITextField_____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A1333AB1CED959C009E9EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A1333891CED959C009E9EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A1333901CED959C009E9EC2;
+			remoteInfo = "UITextField的监听输入";
+		};
+		5A1333B61CED959D009E9EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A1333891CED959C009E9EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A1333901CED959C009E9EC2;
+			remoteInfo = "UITextField的监听输入";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A1333911CED959C009E9EC2 /* UITextField的监听输入.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITextField的监听输入.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1333951CED959C009E9EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A1333971CED959C009E9EC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A1333981CED959C009E9EC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A13339A1CED959C009E9EC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A13339B1CED959C009E9EC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A13339E1CED959C009E9EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A1333A01CED959C009E9EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A1333A31CED959C009E9EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A1333A51CED959C009E9EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A1333AA1CED959C009E9EC2 /* UITextField的监听输入Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITextField的监听输入Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1333AE1CED959C009E9EC2 /* UITextField_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField_____Tests.m"; sourceTree = "<group>"; };
+		5A1333B01CED959C009E9EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A1333B51CED959D009E9EC2 /* UITextField的监听输入UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITextField的监听输入UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1333B91CED959D009E9EC2 /* UITextField_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField_____UITests.m"; sourceTree = "<group>"; };
+		5A1333BB1CED959D009E9EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A13338E1CED959C009E9EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1333A71CED959C009E9EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1333B21CED959D009E9EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A1333881CED959C009E9EC2 = {
+			isa = PBXGroup;
+			children = (
+				5A1333931CED959C009E9EC2 /* UITextField的监听输入 */,
+				5A1333AD1CED959C009E9EC2 /* UITextField的监听输入Tests */,
+				5A1333B81CED959D009E9EC2 /* UITextField的监听输入UITests */,
+				5A1333921CED959C009E9EC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A1333921CED959C009E9EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A1333911CED959C009E9EC2 /* UITextField的监听输入.app */,
+				5A1333AA1CED959C009E9EC2 /* UITextField的监听输入Tests.xctest */,
+				5A1333B51CED959D009E9EC2 /* UITextField的监听输入UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A1333931CED959C009E9EC2 /* UITextField的监听输入 */ = {
+			isa = PBXGroup;
+			children = (
+				5A1333971CED959C009E9EC2 /* AppDelegate.h */,
+				5A1333981CED959C009E9EC2 /* AppDelegate.m */,
+				5A13339A1CED959C009E9EC2 /* ViewController.h */,
+				5A13339B1CED959C009E9EC2 /* ViewController.m */,
+				5A13339D1CED959C009E9EC2 /* Main.storyboard */,
+				5A1333A01CED959C009E9EC2 /* Assets.xcassets */,
+				5A1333A21CED959C009E9EC2 /* LaunchScreen.storyboard */,
+				5A1333A51CED959C009E9EC2 /* Info.plist */,
+				5A1333941CED959C009E9EC2 /* Supporting Files */,
+			);
+			path = "UITextField的监听输入";
+			sourceTree = "<group>";
+		};
+		5A1333941CED959C009E9EC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A1333951CED959C009E9EC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A1333AD1CED959C009E9EC2 /* UITextField的监听输入Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5A1333AE1CED959C009E9EC2 /* UITextField_____Tests.m */,
+				5A1333B01CED959C009E9EC2 /* Info.plist */,
+			);
+			path = "UITextField的监听输入Tests";
+			sourceTree = "<group>";
+		};
+		5A1333B81CED959D009E9EC2 /* UITextField的监听输入UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A1333B91CED959D009E9EC2 /* UITextField_____UITests.m */,
+				5A1333BB1CED959D009E9EC2 /* Info.plist */,
+			);
+			path = "UITextField的监听输入UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A1333901CED959C009E9EC2 /* UITextField的监听输入 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1333BE1CED959D009E9EC2 /* Build configuration list for PBXNativeTarget "UITextField的监听输入" */;
+			buildPhases = (
+				5A13338D1CED959C009E9EC2 /* Sources */,
+				5A13338E1CED959C009E9EC2 /* Frameworks */,
+				5A13338F1CED959C009E9EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITextField的监听输入";
+			productName = "UITextField的监听输入";
+			productReference = 5A1333911CED959C009E9EC2 /* UITextField的监听输入.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A1333A91CED959C009E9EC2 /* UITextField的监听输入Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1333C11CED959D009E9EC2 /* Build configuration list for PBXNativeTarget "UITextField的监听输入Tests" */;
+			buildPhases = (
+				5A1333A61CED959C009E9EC2 /* Sources */,
+				5A1333A71CED959C009E9EC2 /* Frameworks */,
+				5A1333A81CED959C009E9EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A1333AC1CED959C009E9EC2 /* PBXTargetDependency */,
+			);
+			name = "UITextField的监听输入Tests";
+			productName = "UITextField的监听输入Tests";
+			productReference = 5A1333AA1CED959C009E9EC2 /* UITextField的监听输入Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A1333B41CED959D009E9EC2 /* UITextField的监听输入UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1333C41CED959D009E9EC2 /* Build configuration list for PBXNativeTarget "UITextField的监听输入UITests" */;
+			buildPhases = (
+				5A1333B11CED959D009E9EC2 /* Sources */,
+				5A1333B21CED959D009E9EC2 /* Frameworks */,
+				5A1333B31CED959D009E9EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A1333B71CED959D009E9EC2 /* PBXTargetDependency */,
+			);
+			name = "UITextField的监听输入UITests";
+			productName = "UITextField的监听输入UITests";
+			productReference = 5A1333B51CED959D009E9EC2 /* UITextField的监听输入UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A1333891CED959C009E9EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = owen;
+				TargetAttributes = {
+					5A1333901CED959C009E9EC2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = WYY86V8238;
+					};
+					5A1333A91CED959C009E9EC2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = WYY86V8238;
+						TestTargetID = 5A1333901CED959C009E9EC2;
+					};
+					5A1333B41CED959D009E9EC2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = WYY86V8238;
+						TestTargetID = 5A1333901CED959C009E9EC2;
+					};
+				};
+			};
+			buildConfigurationList = 5A13338C1CED959C009E9EC2 /* Build configuration list for PBXProject "UITextField的监听输入" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A1333881CED959C009E9EC2;
+			productRefGroup = 5A1333921CED959C009E9EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A1333901CED959C009E9EC2 /* UITextField的监听输入 */,
+				5A1333A91CED959C009E9EC2 /* UITextField的监听输入Tests */,
+				5A1333B41CED959D009E9EC2 /* UITextField的监听输入UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A13338F1CED959C009E9EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1333A41CED959C009E9EC2 /* LaunchScreen.storyboard in Resources */,
+				5A1333A11CED959C009E9EC2 /* Assets.xcassets in Resources */,
+				5A13339F1CED959C009E9EC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1333A81CED959C009E9EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1333B31CED959D009E9EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A13338D1CED959C009E9EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A13339C1CED959C009E9EC2 /* ViewController.m in Sources */,
+				5A1333991CED959C009E9EC2 /* AppDelegate.m in Sources */,
+				5A1333961CED959C009E9EC2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1333A61CED959C009E9EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1333AF1CED959C009E9EC2 /* UITextField_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1333B11CED959D009E9EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1333BA1CED959D009E9EC2 /* UITextField_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A1333AC1CED959C009E9EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A1333901CED959C009E9EC2 /* UITextField的监听输入 */;
+			targetProxy = 5A1333AB1CED959C009E9EC2 /* PBXContainerItemProxy */;
+		};
+		5A1333B71CED959D009E9EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A1333901CED959C009E9EC2 /* UITextField的监听输入 */;
+			targetProxy = 5A1333B61CED959D009E9EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A13339D1CED959C009E9EC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A13339E1CED959C009E9EC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A1333A21CED959C009E9EC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A1333A31CED959C009E9EC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A1333BC1CED959D009E9EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A1333BD1CED959D009E9EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A1333BF1CED959D009E9EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITextField的监听输入/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-22.UITextField-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A1333C01CED959D009E9EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITextField的监听输入/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-22.UITextField-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A1333C21CED959D009E9EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITextField的监听输入Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-22.UITextField-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextField的监听输入.app/UITextField的监听输入";
+			};
+			name = Debug;
+		};
+		5A1333C31CED959D009E9EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITextField的监听输入Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-22.UITextField-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextField的监听输入.app/UITextField的监听输入";
+			};
+			name = Release;
+		};
+		5A1333C51CED959D009E9EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITextField的监听输入UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-22.UITextField-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITextField的监听输入";
+			};
+			name = Debug;
+		};
+		5A1333C61CED959D009E9EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITextField的监听输入UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-22.UITextField-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITextField的监听输入";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A13338C1CED959C009E9EC2 /* Build configuration list for PBXProject "UITextField的监听输入" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1333BC1CED959D009E9EC2 /* Debug */,
+				5A1333BD1CED959D009E9EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1333BE1CED959D009E9EC2 /* Build configuration list for PBXNativeTarget "UITextField的监听输入" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1333BF1CED959D009E9EC2 /* Debug */,
+				5A1333C01CED959D009E9EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1333C11CED959D009E9EC2 /* Build configuration list for PBXNativeTarget "UITextField的监听输入Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1333C21CED959D009E9EC2 /* Debug */,
+				5A1333C31CED959D009E9EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1333C41CED959D009E9EC2 /* Build configuration list for PBXNativeTarget "UITextField的监听输入UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1333C51CED959D009E9EC2 /* Debug */,
+				5A1333C61CED959D009E9EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A1333891CED959C009E9EC2 /* Project object */;
+}
